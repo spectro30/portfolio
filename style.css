@@ -103,6 +103,10 @@ footer{
     background-size: cover;
   }
 
+  .embed-responsive-item{
+      padding: 3rem;
+  }
+
 
 
 @media(max-width: 992px){
@@ -132,6 +136,9 @@ footer{
     }
     .fixed-bg{
         min-height: 300px;
+    }
+    .embed-responsive-item{
+        padding: 3rem;
     }
      
 }
@@ -165,6 +172,9 @@ footer{
     .fixed-bg{
         min-height: 180px;
     }
+    .embed-responsive-item{
+        padding: 2rem;
+    }
     
 }
 
@@ -194,6 +204,9 @@ footer{
     }
     .fixed-bg{
         min-height: 120px;
+    }
+    .embed-responsive-item{
+        padding: 1rem;
     }
     
 }
