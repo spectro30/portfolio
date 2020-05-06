@@ -40,6 +40,7 @@ html, body{
     margin: auto;
 }
 
+
 .social a{
     font-size: 2.5em;
     padding: 3rem;
@@ -92,4 +93,28 @@ footer{
     color: #d5d5d5;
     padding-top: 1.25rem;
 
+}
+
+@media(max-width: 992px){
+    .social a{
+        font-size: 3em;
+        padding: 3rem;
+        text-shadow: 1px 1px 1px #000000;
+    }
+}
+
+@media(max-width: 768px){
+    .social a{
+        font-size: 2em;
+        padding: 2rem;
+        text-shadow: 1px 1px 1px #000000;
+    }
+}
+
+@media(max-width: 576px){
+    .social a{
+        font-size: 1.5em;
+        padding: 1.5rem;
+        text-shadow: 1px 1px 1px #000000;
+    }
 }
