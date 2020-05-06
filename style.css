@@ -7,7 +7,6 @@ html, body{
     color: #222;
 }
 
-
 .navbar{
     padding: 0.8rem;
 }
@@ -35,10 +34,9 @@ html, body{
 }
 
 .footbar{
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
-
 
 .social a{
     font-size: 2.5em;
@@ -116,8 +114,8 @@ footer{
 
 @media(max-width: 576px){
     .social a{
-        font-size: 1.25em;
-        padding: 1.25rem;
+        font-size: 1em;
+        padding: 0.5rem;
         text-shadow: 1px 1px 1px #000000;
     }
     .navbar-brand{
